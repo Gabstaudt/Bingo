@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bingo-card {
+    display: inline-block;
+    border: 2px solid #4682b4; 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #4682b4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    background-color: #add8e6; 
+}
+
+.empty {
+    background-color: #ffffff; 
+}
+
+
+
+/* caixa de números sorteados */
+#numerosSorteadosContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+/* destacar os números sorteados */
+.numero-sorteado {
+    background-color: red;
+    color: white;
+}
+
+/* exibição dos números sorteados */
+#numerosSorteados {
+    margin-top: 10px;
+}
+
+
+
+/* rodapé */
+footer {
+    text-align: center;
+    background-color: #f0f8ff; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
