@@ -1,22 +1,67 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px 5px 5px 5px 5px;
+    width: 10px;
+   
+
+}
+.butsort {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    display:grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
     margin: 0;
 }
 
-.bingo-card {
-    display: inline-block;
-    border: 2px solid #4682b4; 
-    border-radius: 5px;
+header button {
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f8ff; 
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#cartelasContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0 20px;
+   
+}
+
+.bingo-card {
+    border: 2px solid #4682b4; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 70px;
+    max-width: calc(25% - -80px); /* Define a largura máxima de cada cartela */
+    margin: 10px ;
+    
 }
 
 .row {
-    display: flex;
+    display:flex;
+   
+   
 }
 
 .cell {
@@ -34,34 +79,16 @@ body {
     background-color: #ffffff; 
 }
 
-
-
-/* caixa de números sorteados */
-#numerosSorteadosContainer {
-    margin-top: 20px;
-    text-align: center;
-}
-/* destacar os números sorteados */
 .numero-sorteado {
     background-color: red;
     color: white;
 }
 
-/* exibição dos números sorteados */
 #numerosSorteados {
-    margin-top: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
-
-
-/* rodapé */
-footer {
-    text-align: center;
-    background-color: #f0f8ff; 
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 
