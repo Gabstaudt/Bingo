@@ -1,67 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt">   <!-- lingua do programa -->
+<html lang="pt">
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- p/ dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bingo</title>
-    <link rel="stylesheet" href="styles.css"> <!-- importa o arquivo css -->
-    
+    <link rel="stylesheet" href="love.css">
 </head>
-
-
 <body>
-    <div class="butsort"> 
-    <button id="btnSortearNumero">Sortear Número</button>
-    <button id="btnAddCartela">Cadastrar Nova Cartela</button>
+    <div class="butsort">
+        <button id="btnSortearNumero">Sortear Número</button>
+        <button id="btnAddCartela">Cadastrar Nova Cartela</button>
     </div>
-
-    <div id="numerosSorteados"></div> <!-- Adiciona a área para exibir os números sorteados -->
-    <div class="bingo-card" id="bingoCard"> <!-- Contêiner principal da cartela de bingo -->
-        <button class="btnExcluirCartela" onclick="excluirCartela(this)">Excluir</button> 
-        <div class="row">   <!-- a classe row -->
-            
-
-            <!-- Cada célula da linha é representada por um elemento div com a classe "cell" e um ID único -->
-            <div class="cell" id="cell11"></div>
-            <div class="cell" id="cell12"></div>
-            <div class="cell" id="cell13"></div>
-            <div class="cell" id="cell14"></div>
-            <div class="cell" id="cell15"></div>
-        </div>
-        <div class="row">
-            <div class="cell" id="cell21"></div>
-            <div class="cell" id="cell22"></div>
-            <div class="cell" id="cell23"></div>
-            <div class="cell" id="cell24"></div>
-            <div class="cell" id="cell25"></div>
-        </div>
-        <div class="row">
-            <div class="cell" id="cell31"></div>
-            <div class="cell" id="cell32"></div>
-            <div class="cell empty"></div>
-            <div class="cell" id="cell34"></div>
-            <div class="cell" id="cell35"></div>
-        </div>
-        <div class="row">
-            <div class="cell" id="cell41"></div>
-            <div class="cell" id="cell42"></div>
-            <div class="cell" id="cell43"></div>
-            <div class="cell" id="cell44"></div>
-            <div class="cell" id="cell45"></div>
-        </div>
-        <div class="row">
-            <div class="cell" id="cell51"></div>
-            <div class="cell" id="cell52"></div>
-            <div class="cell" id="cell53"></div>
-            <div class="cell" id="cell54"></div>
-            <div class="cell" id="cell55"></div>
-        </div>
-       
-    </div>
-  
-
-    <script src="script.js"></script>   <!-- Importa o arquivo JavaScript  -->
-   
+    <div id="numerosSorteados"></div>
+    <div id="cartelasContainer"></div>
+    <script src="linhas.js"></script>
+     <script src="cheia.js"></script>
 </body>
 </html>
