@@ -1,19 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; 
-    display:grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 5px 5px 5px 5px 5px;
-    width: 10px;
-   
-
+    background-color: #f0f8ff;
 }
+
 .butsort {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; 
-    display:grid;
-    grid-template-columns: 100px 100px;
-    grid-gap: 5px;
+    background-color: #f0f8ff;
+    display: grid;
+    grid-template-columns: 150px 200px;
+    grid-gap: 10px;
+    margin: 20px;
 }
 
 header {
@@ -21,17 +17,9 @@ header {
     padding: 20px 0;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header button {
-    margin-left: 10px;
-}
-
 footer {
     text-align: center;
-    background-color: #f0f8ff; 
+    background-color: #f0f8ff;
     padding: 10px;
     position: fixed;
     bottom: 0;
@@ -43,40 +31,35 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 0 20px;
-   
 }
 
 .bingo-card {
-    border: 2px solid #4682b4; 
+    border: 2px solid #4682b4;
     border-radius: 10px;
-    padding: 20px;
-    margin: 70px;
-    max-width: calc(25% - -80px); /* Define a largura máxima de cada cartela */
-    margin: 10px ;
-    
+    padding: 15px;
+    margin: 10px;
+    width: 220px;
 }
 
 .row {
-    display:flex;
-   
-   
+    display: flex;
 }
 
 .cell {
     width: 40px;
     height: 40px;
-    border: 1px solid #4682b4; 
+    border: 1px solid #4682b4;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2px;
-    background-color: #add8e6; 
+    margin: 1px;
+    background-color: #add8e6;
 }
 
 .empty {
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 
 .numero-sorteado {
@@ -88,8 +71,4 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
-
-}
-
-
 
