@@ -1,5 +1,5 @@
-Introdução
-Este documento descreve a implementação de um jogo de Bingo em JavaScript. O jogo foi desenvolvido para ser executado em um navegador da web e possui as seguintes funcionalidades principais:
+
+Implementação de um jogo de Bingo em JavaScript. O jogo foi desenvolvido para ser executado em um navegador da web e possui as seguintes funcionalidades principais:
 
 Criação e exibição de cartelas de Bingo.
 Adição de novas cartelas pelo usuário.
@@ -26,8 +26,7 @@ Exibir Números Sorteados
 Os números sorteados são exibidos em uma área específica da página, atualizada sempre que um novo número é sorteado.
 
 Desenvolvimento
-O jogo foi desenvolvido em JavaScript, HTML e CSS. O JavaScript é responsável pela lógica do jogo, incluindo a manipulação do DOM para interações com o usuário. O HTML define a estrutura da página, enquanto o CSS fornece estilos visuais para uma melhor experiência de usuário.
+O programa foi desenvolvido em JavaScript, HTML e CSS. O JavaScript é responsável pela lógica do jogo, incluindo a manipulação do DOM para interações com o usuário. O HTML define a estrutura da página, enquanto o CSS fornece estilos visuais para uma melhor experiência de usuário.
 
-Conclusão
-Este jogo de Bingo oferece uma experiência interativa e divertida para os jogadores. Com funcionalidades como adição e exclusão de cartelas, sorteio de números e marcação nas cartelas, os usuários podem desfrutar de uma versão digital do clássico jogo de Bingo.
-
+Atualização
+O programa conta com codigo para conferir cartelas na diagonal, vertical e horizontal + código adicional para cartela cheia excluindo o uso do espaço vazio.
